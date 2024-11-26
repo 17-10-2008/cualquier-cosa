@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>Document CONTACTOS</title>
+    <style type="text/css">
+      *{
+        margin:0px;
+        padding:0px;
+      }
+      #header{
+        margin:auto;
+        width:500px;
+        font-family;Arial,Helvetica,sans-serif;
+      }
+      ul,ol{
+        list-style:none;
+      }
+      .nav > li{
+        float:left;
+      }
+      .nav li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 20px;
+        display:block;
+      }
+      .nav li a:hover {
+        background-color:#434343;
+      }
+      .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px
+      }
+      .nav li:hover > ul {
+        display:block;     
+      }
+      .nav li ul li {
+        position:relative;
+      }
+      .nav li ul li ul {
+        right: -140px;
+        top:0px;
+      }
+  header {
+      background-color: #000000;
+      color: #fff;
+      padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div id="header">
+      <ul class="nav">
+        <li><a href="Proyecto 2 Del 4">Inicio</a></li>
+        <li><a href=" ">Servicios</a>
+          <ul>
+            <li><a href="PROYECTO 1 DEL 4">Galletas antianemicas</a></li>
+            <li><a href="">Galletas dulces</a></li>
+            <li><a href="">Galletas medicinales</a></li>
+            <li><a href="">Pasteles</a>
+              <ul>
+                <li><a href="">Pedidos personales</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Acerca de</a>
+          <ul>
+            <li><a href="Valor nutri">Valor nutricional</a></li>
+          </ul>
+        </li>
+        <li><a href="">Portafolio</a>
+          <ul>
+            <li><a href="PROCESO DE ELABORACION">Proceso de preparacion</a></li>
+            <li><a href="Document PORTAFOLIO">Resultado</a></li>
+          </ul>
+        </li>
+        <li><a href="Document CONTACTOS">Contactos</a></li>
+      </ul>
+    </div><br><br>
+    <header><h1> FORMULARIO DE REGISTRO</h1></header>
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <label for="usuario">Nombre:</label>
+      <input type="text" id="usuario" name="usuario" required><br><br>
+      <label for="fecheNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fehaNacimiento" name="fechaNacimiento" requied><br><br>
+      <legend>Genero:</legend>
+      <input type="radio" id="masculino" name="genero" value="Masculino" required>
+      <label for="masculino">Masculino</label><br>
+      <input type="radio" id="otro" name="genero" value="Femenino">
+      <label for="femenino">Femenino</label><br>
+      <input type="radio" id="otro" name="genero" value="Otro">
+      <label for="otro">Otro</label><br><br>
+    </fieldset>
+    <fieldset>
+      <legend>Informacion de Cuenta</legend>
+      <label for="usuario">Nombre de Usuario:</label>
+      <input type="text" id="usuario" name="usuario" required><br><br>
+      <label for="contraseña">Contrasena:</label>
+      <input type="password" id="contraseña" name="contraseña" required><br><br>
+      <label for="confirmacionConstraseña">Confirmar Contrasena:</label>
+      <input type="password" id="confirmarContraseña" name="confitmarContraseña" required><br><br>
+    </fieldset>
+    <fieldset>
+      <legend>Contactos</legend>
+      Numero telefonico:
+    <select name="NUMERO">
+      <option>Pedidos: 987654321</option>
+      <option>Delivery :998765432</option>
+      <option>Recomendaciones : 987657456</option>
+      <option>Gerencia :987556231</option>
+      <option>Quejas :988976561</option>
+    </select>
+    <br><br>
+      <input type="checkbox" id="aceptarTerminos" name="aceptarTerminos" required>
+      <label for="aceptarTerminos">Acepto los Terminos y Condiciones</label><br><br>
+    <input type="submit" value="Registrarse">
+    </fieldset>
+    <p style="color: red;">SAYRI ALEXANDER OSORIO VIERA 4F</p>
+</body>
+</html>
+    

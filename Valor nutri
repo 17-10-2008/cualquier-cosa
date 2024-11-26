@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Valor nutri</title>
+<style type="text/css">
+   *{
+     margin:0px;
+     padding:0px;
+   }
+   #header{
+     margin:auto;
+     width:500px;
+     font-family;Arial,Helvetica,sans-serif;
+     background-color: #000000;
+     color: #fff;
+     padding: 10px;
+   }
+   ul,ol{
+     list-style:none;
+   }
+   .nav > li{
+     float:left;
+   }
+   .nav li a {
+     background-color:#000;
+     color:#fff;
+     text-decoration:none;
+     padding:10px 20px;
+     display:block;
+   }
+   .nav li a:hover {
+     background-color:#434343;
+   }
+   .nav li ul {
+     display:none;
+     position:absolute;
+     min-width:140px
+   }
+   .nav li:hover > ul {
+     display:block;     
+   }
+   .nav li ul li {
+     position:relative;
+   }
+   .nav li ul li ul {
+     right: -140px;
+     top:0px;
+   }
+</style>
+</head>
+<body>
+    <div id="header">
+    <ul class="nav">
+      <li><a href="Proyecto 2 Del 4">Inicio</a></li>
+      <li><a href=" ">Servicios</a>
+        <ul>
+          <li><a href="PROYECTO 1 DEL 4">Galletas antianemicas</a></li>
+          <li><a href="">Galletas dulces</a></li>
+          <li><a href="">Galletas medicinales</a></li>
+          <li><a href="">Pasteles</a>
+            <ul>
+              <li><a href="">Pedidos personales</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="">Acerca de</a>
+        <ul>
+          <li><a href="Valor nutri">Valor nutricional</a></li>
+        </ul>
+      </li>
+      <li><a href="">Portafolio</a>
+        <ul>
+          <li><a href="PROCESO DE ELABORACION">Proceso de preparacion</a></li>
+          <li><a href="Document PORTAFOLIO">Resultado</a></li>
+        </ul>
+      </li>
+      <li><a href="Document CONTACTOS">Contactos</a></li>
+    </ul>
+  </div><br><br>
+    <header><h1><center>VALOR NUTRICINAL</center></h1>
+        <center><img src="TABLA DE VALOR NUTRI.png" width="500" height="500"></center>
+    </header>
+    <p style="color: red;">SAYRI ALEXANDER OSORIO VIERA 4F</p>
+</body>
+</html>
